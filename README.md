@@ -4,7 +4,18 @@ Converts speech to text, to japanese katakana, then to speech for whatever reaso
 
 I made this for a discord gag.
 
+## Prerequisites
+
+- [VoiceVox](https://github.com/VOICEVOX/voicevox)
+- [VB-Cable](https://vb-audio.com/Cable/) (You can route the audio to somewhere else)
+
 ## Setup
+
+Clone the repository with submodules
+
+```bash
+git clone --recurse-submodules https://github.com/ManSmooth/stt-to-tts-voicevox.git
+```
 
 Install package manager
 
@@ -12,7 +23,7 @@ Install package manager
 pip install uv
 ```
 
-Run package manager
+Sync packages
 
 ```bash
 uv sync
