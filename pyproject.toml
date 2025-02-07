@@ -1,0 +1,18 @@
+[project]
+name = "koron"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "argparse>=1.4.0",
+    "numpy<2",
+    "pickledb>=1.1.1",
+    "pyaudio>=0.2.14",
+    "pynput>=1.7.7",
+    "realtimestt>=0.1.13",
+    "romajitable>=0.0.1",
+    "scipy>=1.15.1",
+    "tqdm>=4.67.1",
+    "voicevox-client>=0.4.1",
+]
