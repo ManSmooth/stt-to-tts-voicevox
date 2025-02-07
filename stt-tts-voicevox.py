@@ -81,12 +81,12 @@ async def process_text_async(text):
 
 
 def process_text(text, speaker):
-    print(f"{speaker.value=}")
+    # print(f"{speaker.value=}")
     asyncio.run(play_sound(text, speaker))
 
 
 def start_listening(speaker):
-    with AudioToTextRecorder(spinner=False, language="ja") as recorder:
+    with AudioToTextRecorder(spinner=False, language="en") as recorder:
         print("Start listening thread")
         while True:
             recorder.text(lambda text: process_text(text, speaker))
