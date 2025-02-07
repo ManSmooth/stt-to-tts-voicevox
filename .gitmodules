@@ -1,0 +1,3 @@
+[submodule "transcript"]
+	path = transcript
+	url = https://github.com/ManSmooth/transcript.git
